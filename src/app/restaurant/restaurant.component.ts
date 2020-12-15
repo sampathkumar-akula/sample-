@@ -38,18 +38,9 @@ forms = {
 
 }
 
-previewUrl(id, target) {
-clearTimeout(window.ht);
-var displaylink;
-forms.list.forEach(function(entry) {
-entry.listkey = entry.listkey.replace(/\s/g, '')
-if(entry.listkey.toLowerCase() === id.toLowerCase()){
-displaylink = entry.link;
-}
-});
-window.ht = setTimeout(function () {
-var div = document.getElementById(target);
+previewUrl(displaylink:any, target:any) {
+let div:any;
+ div = document.getElementById(target);
 div.innerHTML = '<iframe style="width:600px;height:350px;" frameborder="0" src="' + displaylink + '" />';
-}, 20);
 }
 }

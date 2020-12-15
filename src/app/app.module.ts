@@ -17,6 +17,6 @@ import { RestaurantComponent } from './restaurant/restaurant.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [FirstComponent]
+  bootstrap: [RestaurantComponent]
 })
 export class AppModule { }
