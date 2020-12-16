@@ -11,8 +11,6 @@ export class RestaurantComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-
 forms = {
   'title': "PARADISE",
   'foot':"FOOTER",
