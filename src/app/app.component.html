@@ -1,15 +1,4 @@
-
-{{title}} is a good boy
-<ul>
-  <li *ngFor="let arr of myArr" class="yellow">{{ arr }}</li>
-</ul>
-<!-- <app-first></app-first> -->
-<div *ngIf="test !== 'chk'">Yeah, I exist.</div>
-
-<div [class]="testClass">No, I do.</div>
-
-<button [disabled]="!buttonStatus" (click)="myEvent(test)">My Button</button>
-<h1 [ngClass]="titleClasses">
-  {{title}}
-</h1>
 <router-outlet></router-outlet>
+<app-header></app-header>
+<app-home></app-home>
+<app-footer></app-footer>
