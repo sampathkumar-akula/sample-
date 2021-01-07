@@ -15,12 +15,12 @@ export class HomeComponent implements OnInit {
   slideConfig = {
     "slidesToShow": 1,
     "slidesToScroll": 1,
-    prevArrow: '<div class="class-to-style"><span class="fa fa-angle-left"></span><span class="sr-only">Prev</span></div>',
+    // prevArrow: '<div class="class-to-style"><span class="fa fa-angle-left"></span><span class="sr-only">Prev</span></div>',
 
-    nextArrow: '<div class="class-to-style"><span class="fa fa-angle-right"></span><span class="sr-only">Next</span></div>',
-
-    "infinite": false,
-    "autoplaySpeed": 1000
+    // nextArrow: '<div class="class-to-style"><span class="fa fa-angle-right"></span><span class="sr-only">Next</span></div>',
+    "arrows": true,
+    "infinite": false
+    // "autoplaySpeed": 1000
   };
 
 

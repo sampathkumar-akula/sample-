@@ -3,3 +3,15 @@
     height:fit-content;
     background-color: cornflowerblue;
 }
+::ng-deep .slick-next {
+    right: 30px !important;
+    z-index: 99;
+}
+::ng-deep .slick-prev {
+    left: 20px !important;
+    z-index: 99;
+}
+::ng-deep .slick-prev:before, 
+::ng-deep .slick-next:before {
+    color:red !important;
+    }
