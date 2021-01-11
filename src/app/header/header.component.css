@@ -3,7 +3,7 @@
   margin-right: 200px;
 }
 .reg{
-    background-color:slategrey;
+    background-color:rgb(246, 249, 252);
     display: flex;
 }
 .reg1{
@@ -33,6 +33,12 @@
   .dropdown {
     position: relative;
     display: inline-block;
+  }
+  .dropdown a{
+    text-decoration: none;
+    padding: 16px;
+    font-size: 18px;
+    color: black;
   }
   .dropdown1 {
     position: relative;
@@ -86,15 +92,16 @@
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown a {background-color: #65c5f1;}
 
 .dropdown1:hover .dropdown-content {display: block;}
 
-.dropdown1:hover .dropbtn {background-color: #3e8e41;}
+.dropdown1:hover .dropbtn {background-color: tomato;}
 
 .dropdown2:hover .dropdown-content {display: block;}
 
 .dropdown2:hover .dropbtn {background-color: #3e8e41;}
+.dropdown2.dropdown-content a:hover {background-color: #3e8e41;}
 
 .dropdown3:hover .dropdown-content {display: block;}
 

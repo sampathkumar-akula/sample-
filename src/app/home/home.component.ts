@@ -19,8 +19,9 @@ export class HomeComponent implements OnInit {
 
     // nextArrow: '<div class="class-to-style"><span class="fa fa-angle-right"></span><span class="sr-only">Next</span></div>',
     "arrows": true,
-    "infinite": false
-    // "autoplaySpeed": 1000
+    "infinite": true,
+    "autoplay":true,
+     "autoplaySpeed": 2000
   };
 
 

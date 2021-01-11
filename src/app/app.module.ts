@@ -7,6 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { Componenet1Component } from './componenet1/componenet1.component';
+import { ApproachComponent } from './approach/approach.component';
+import { LastComponent } from './last/last.component';
 
 
 @NgModule({
@@ -14,7 +17,10 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    Componenet1Component,
+    ApproachComponent,
+    LastComponent
   ],
   imports: [
     BrowserModule,

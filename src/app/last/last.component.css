@@ -1,0 +1,123 @@
+.room{
+    height: 280px;
+    /* background-color: violet; */
+    display: flex;
+    width: 1200px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+.image{
+    padding: 10px;
+}
+.image img{
+    border:5px solid rgb(245, 240, 240);
+    border-radius: 5px;
+}
+.droom{
+    padding: 10px;
+    margin-top: 25px;
+}
+.parents{
+    height: 400px;
+    background-color: #cbc83d;
+    margin-bottom: 15px;
+}
+.wp{
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+.review{
+    width: 1200px;
+    height: 300px;
+    border: 1px solid rgb(180, 163, 3);
+    border-radius: 3px;
+    margin-left: 150px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+.approach{
+    /* background-color: rgb(247, 201, 85); */
+    height: 350px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    display: flex;
+    margin-top: 15px;
+}
+.head{
+    font-size: 25px;
+    background-color:rgb(247, 201, 85);
+    padding: 10px;
+    text-align: center;
+    color: white;text-decoration: solid;
+}
+.approach1{
+    /* background-color: darkgray; */
+    height: 300px;
+    width:300px;
+    margin-left: 150px;
+    /* border: 5px solid gray;
+    border-radius: 5px; */
+}
+.approach2{
+    /* background-color:dimgray; */
+    height: 300px;
+    width:300px;
+    margin-left: 150px;
+    /* border: 5px solid gray;
+    border-radius: 5px; */
+}
+.approach3{
+    /* background-color:lightgray; */
+    height: 300px;
+    width:300px;
+    margin-left: 150px;
+    }
+.heading{
+    font-size: 15px;
+    text-align: center;
+}
+
+.text{
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+    border: 5px solid rgb(199, 198, 198);
+    border-radius: 15px;
+    height: 250px;
+
+}
+  .pic img{
+      align-content: center;
+      margin-left: 550px;
+      border-radius: 50%;
+      border:5px solid white;
+  }
+  .say{
+      padding: 10px;
+      color: rgb(73, 70, 70);
+      margin-left: 30px;
+  }
+  .name{
+      align-items: center;
+      color: rgb(26, 108, 202);
+      margin-left: 550px;
+      margin-top: 40px;
+  }
+  .imageslide{
+    width: 100%;
+    height:fit-content;
+    background-color: cornflowerblue;
+}
+::ng-deep .slick-next {
+    right: 30px !important;
+    z-index: 99;
+}
+::ng-deep .slick-prev {
+    left: 20px !important;
+    z-index: 99;
+}
+::ng-deep .slick-prev:before, 
+::ng-deep .slick-next:before {
+    color:rgb(95, 87, 87) !important;
+    }
