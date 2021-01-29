@@ -1,0 +1,99 @@
+{
+    "header":{
+        "home":["Home"],
+        "aboutus":["Overview","Vison & Mission","Phillosophy","CBSE Information","Contact Us"],
+        "coreteam":["Chairman","Director","Principal","Faculty"],
+        "academics":["CBSE","Calander"," Exam Schedule"],
+        "facilities":["Community Service","Co-Curricular Activities","Students Council"],
+        "schoollife":["Play Ground","Laboratories","Indoor Games","Library","Arts","Dance&Music","Swimming Pool","Scating","Transport","More Facilities"],
+        "admissions":["Procedure","Guide Lines","Code of Conduct","Apply Online","Tc","Register Online"],
+        "Careers":["Careers"],
+        "Gallery":["Photos","Videos"]
+    },
+    "slider":{
+        "slides" : [
+            { "img": 1, "path": "http://www.oakvalleyinternationalschool.org/views/default/images/slider1.jpg" },
+            { "img": 2, "path": "http://www.oakvalleyinternationalschool.org/views/default/images/slider2.jpg" },
+            { "img": 3, "path": "http://www.oakvalleyinternationalschool.org/views/default/images/slider3.jpg" },
+            { "img": 4, "path": "http://www.oakvalleyinternationalschool.org/views/default/images/slider4.jpg" }
+          ],
+     
+        "slideConfig" : {
+            "slidesToShow": 1,
+            "slidesToScroll": 1,
+            "arrows": true,
+            "infinite": true,
+            "autoplay":true,
+            "autoplaySpeed": 2000
+        }
+    },
+    "notice":{
+        "notice1":["Admissions for the Academic Year 2020-21 in Progress.","Click here to Enquire about Admissions."],
+        "notice2":["Regarding any query about your child's academics during curfew period, parents may contact 7207064232.","Stay Home... Stay Safe..."]
+    },
+    "intro":{
+        "welcome":["Welcome to Our School"],
+        "text":["Welcome to the ambient environment and the enviable location spread across three and a half acres of lush green campus of the Oak Valley School. It is located away from the din of the city traffic and pollution in a calm peaceful, clean and healthy environment with the state of the art infrastructure with all the required facilities in a well planned and the most beautiful way possible for the overall development of your child. Teaching and Learning takes place here in a friendly atmosphere."],
+        "media":["https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"]
+    },
+    "title":["Our Approach"],
+    "approach1":{
+        "subtitle":["Qualified Teachers"],
+        "img":["http://www.oakvalleyinternationalschool.org/views/default/images/girl.jpg"],
+        "text":["Oak Valley has an outstanding faculty with a tremendous experience base and qualifications. They love working with children and helping them to grow and develop the attributes of the learning to which we subscribe."]
+    },
+    "approach2":{
+        "subtitle":["Teaching Method"],
+        "img":["http://www.oakvalleyinternationalschool.org/views/default/images/teaching-method.jpg"],
+        "text":["We implement one of the most co-operating teaching strategies. This is useful when teacher wants to point out the fact that not all in the class have the same point of view or that there are multiple solutions to some problems."]
+    },
+    "approach3":{
+        "subtitle":["Facilities"],
+        "img":["http://www.oakvalleyinternationalschool.org/views/default/images/fecility.jpg"],
+        "text":["Oak promotes and encourages a number of physical activities through sports and games that is an essential ingredient for the personality development of every scholar. We also offer Dance and Music Classes."]
+    },
+    "room":{
+        "img":["http://www.oakvalleyinternationalschool.org/views/default/images/digital-pic.jpg"],
+        "subtitle":["Digital Classrooms"],
+        "text":["A digital classroom is a boon to the present generation and is a fool proof method for better understanding and concept clarity at all levels right from nursery to grade 10. So we have equipped all our class rooms with touch screen digital boards along with projectors, desktop and speakers as it is an aid for both the teacher and the student which inculcates interest and enhances the class room learning activity to the maximum extent possible.."]
+    },
+    "parents":{
+        "subtitle":["What Parents Say"],
+        "img":["http://www.oakvalleyinternationalschool.org/views/default/images/parent-3.jpg"],
+        "text":["The school has an outstanding infrastructure along with quality education. My child showed a lot of improvement in both academics and sports. He has also improved his communication skills and I am happy that my child is studying in such a good school."],
+        "name":["Mr. P. Marreddy"]
+    },
+    "stime":{
+        "title":["School Timings"],
+        "txt1":["The classes will start from 15-06-2020 for Nursery and LKG. The timings are from 8:45AM to 3:45PM."],
+        "txt2":["The classes start from 12-06-2020 for UKG and the timings are from 8:45AM to 3:45PM."],
+        "txt3":["The classes start from 06-03-2020 for Classes I to X and the timings are from 8:30AM to 4:00PM."]
+    },
+    "snews":{
+        "title":["School News"],
+        "txt1":["Oak Valley announces 100% pass result in 2019-20 Grade 10 CBSE board exam"],
+        "txt2":["Congrats to 9 students for achieving more than 90% marks in Grade 10 board exam"],
+        "txt3":["Congrats to 20 students for achieving more than 80% marks in Grade 10 board exam School Events"]
+    },
+    "sevent":{
+        "title":["School Events"],
+        "txt1":["Sub-juniors under 7 years Badminton tournament 1st prize bagged by Thaman of grade 2"],
+        "txt2":["ADMISSIONS ARE OPEN FOR 2020-21"],
+        "txt3":["Periodic Test -2 will commence from 16-12-19 to 21-12-19"],
+        "txt4":["Recruitment of teaching/non-teaching/ admin. personnel will take place on 14th and 15th December, 2019 at School campus."],
+        "txt5":["PONGAL VACATION : FROM 11-01-2020 TO 16-01-2020. THE SCHOOL REOPENS ON 17-01-2020."],
+        "txt6":["Academic Display Day: on 10-01-2020"],
+        "txt7":["PTM is scheduled on 18-01-2020; timing: 9am to 11am"],
+        "txt8":["School picnic for classes is scheduled on 25-01-2020; Place ; Ramoji Film City & Wonderla"],
+        "txt9":["Congratulations to Karthikeya & Spandan for bagging 1st prize in inter-school Science exhibition seniors category"],
+        "txt10":["Congratulations to Sreenand for bagging 2nd prize in inter-school Science exhibition juniors category"],
+        "txt11":["The new academic year 2020-21 is starting from 06-03-2020."],
+        "txt12":["The School declares holidays from 16-03-2020 to 31-03-2020 as a preventive measure from the spread of Corona Virus."]
+    },
+    "footer":{
+        "txt":["All Rights Reserved to oakvalleyinternationalschool"],
+        "link1":[""],
+        "link2":[""]
+    }
+}
+

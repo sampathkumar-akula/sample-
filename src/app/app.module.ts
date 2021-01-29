@@ -10,7 +10,13 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { Componenet1Component } from './componenet1/componenet1.component';
 import { ApproachComponent } from './approach/approach.component';
 import { LastComponent } from './last/last.component';
-
+import {HomeService} from './home.service';
+import {HttpClientModule} from '@angular/common/http';
+import { OverviewComponent } from './overview/overview.component';
+import { VismisComponent } from './vismis/vismis.component';
+import { PhillosophyComponent } from './phillosophy/phillosophy.component';
+import { CbseComponent } from './cbse/cbse.component';
+import { ContactusComponent } from './contactus/contactus.component'
 
 @NgModule({
   declarations: [
@@ -20,15 +26,21 @@ import { LastComponent } from './last/last.component';
     HomeComponent,
     Componenet1Component,
     ApproachComponent,
-    LastComponent
+    LastComponent,
+    OverviewComponent,
+    VismisComponent,
+    PhillosophyComponent,
+    CbseComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    SlickCarouselModule
+    SlickCarouselModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [HomeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

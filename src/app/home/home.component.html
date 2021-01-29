@@ -2,14 +2,15 @@
     <div class="imageslide">
         <ngx-slick-carousel class="carousel" 
                         #slickModal="slick-carousel" 
-                        [config]="slideConfig">
-        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
-              <img src="{{ slide.img }}" alt="" width="100%">
+                        [config]="homedata.slider.slideConfig">
+        <div ngxSlickItem *ngFor="let slide of homedata.slider.slides" class="slide">
+              <img src="{{ slide.path }}" alt="" width="100%">
         </div>
     </ngx-slick-carousel>
 
     </div>
 </div>
+<button (click)="sendMessage()">Send Message</button>
 <app-componenet1></app-componenet1>
 <app-approach></app-approach>
 <app-last></app-last>

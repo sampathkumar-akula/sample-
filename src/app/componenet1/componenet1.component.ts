@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./componenet1.component.css']
 })
 export class Componenet1Component implements OnInit {
-
+message ="using view child";
   constructor() { }
 
   ngOnInit(): void {

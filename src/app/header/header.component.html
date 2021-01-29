@@ -1,4 +1,5 @@
 <div>
+    say {{childMessage}}
     <div class="reg">
         <div class="reg1">
             <p>Affiliated to CBSC, New Delhi ( Aff.No.3630188 )</p>
@@ -19,8 +20,9 @@
         <div class="dropdown1">
             <button class="dropbtn">About Us</button>
             <div class="dropdown-content">
-                <a href="#">Overview</a>
-                <a href="#">Vision & Mission</a>
+                <a [routerLink]='["/overview"]' routerLinkActivate="Activate">Overview</a>
+                <a [routerLink]='["/vismis"]' routerLinkActivate="Activate">Vision and Mission</a>
+                <!-- <a href="#">Vision & Mission</a> -->
                 <a href="#">Phillosophy</a>
                 <a href="#">CBSE Information</a>
                 <a href="#">Contact Us</a>
@@ -90,3 +92,4 @@
 
 </div>
 </div>
+<router-outlet></router-outlet>
